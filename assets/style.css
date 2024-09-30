@@ -1,0 +1,79 @@
+body {
+  background-color: #2C2C2C !important;
+}
+
+* {
+  color: #fff;
+}
+
+.container .row {
+  padding: 100px 0;
+}
+.container h1 {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+}
+.container h1::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 34%;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.container h1::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 34%;
+  width: 50px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.container .inputPos {
+  border-bottom: 2px solid #fff;
+  padding: 20px;
+}
+.container .inputPos input {
+  position: relative;
+  width: 100%;
+  border-radius: 20px;
+  color: #2C2C2C;
+  padding: 10px 0;
+  background-color: #D9D9D9;
+}
+.container .inputPos input:focus {
+  outline: none;
+}
+.container .inputPos button {
+  position: absolute;
+  background-color: #4F4F4F;
+  right: 15%;
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-family: "Racing Sans One", sans-serif;
+  border: none;
+}
+.container ul {
+  border-radius: 20px;
+}
+.container ul li {
+  margin-bottom: 10px;
+  background-color: #222222;
+  padding: 5px;
+  border-radius: 20px;
+}
+.container ul li .remove {
+  background-color: #999999;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.container ul li .remove i {
+  color: #2C2C2C;
+}/*# sourceMappingURL=style.css.map */
